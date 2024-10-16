@@ -8,12 +8,6 @@
     padding:0px;
 }
 
-.attribution {
-    font-size: 11px; text-align: center;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
 body {
     background-color: hsl(0, 0%, 8%); 
     font-size: 14px; font-family: "Inter", sans-serif;
@@ -36,7 +30,6 @@ body {
 }
 .card-text {
     padding: 24px;
-    
 }
 h1{
     font-weight: 400;
@@ -51,7 +44,7 @@ img {
     max-width: 88px;
     height: 88px;
     border-radius: 50%;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .socialBtns{
