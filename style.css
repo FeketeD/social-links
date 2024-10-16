@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Inter";
+    src: url(assets\fonts\Inter-VariableFont_slnt,wght.ttf);
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body {
+    background-color: hsl(0, 0%, 8%); 
+    font-size: 14px; font-family: "Inter", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    max-width: 384px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.card-text {
+    padding: 24px;
+    
+}
+h1{
+    font-weight: 400;
+}
+p.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+img {
+    max-width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.socialBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    width: 300px;
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.btn {
+    border: 0;
+    outline: inherit;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 7px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 700;
+}
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+.btn:hover a{
+    color:hsl(0, 0%, 20%);
+    font-weight: 700;
+}
